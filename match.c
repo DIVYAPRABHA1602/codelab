@@ -18,6 +18,7 @@ printf("available   %d\n",m);
 if(m==1)
 {
 printf(" available 1 ");
+  break;
 }
 }while(m>=1);
 printf("CPU WON");
