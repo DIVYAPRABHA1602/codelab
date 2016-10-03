@@ -32,10 +32,7 @@ int main()
     int len=0,i;
     puts("Enter a string:\n\n");
     gets(str);
-    for (i=0; str[i] != '\0'; i++)
-    {
-        len++;
-    }
+    len=printf("%s",str);
     permute(str, 0, len);
     getchar();
     return 0;
